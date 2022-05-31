@@ -5,10 +5,6 @@
 }
 
 /* General */
-img {
-    width: 100%;
-}
-
 .body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,16 +22,6 @@ img {
 }
 
 /* Main */
-.img-avatar {
-    width: 200px;
-}
-
-.ms_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .ms_line {
     width: 10%;
     height: 3px;
