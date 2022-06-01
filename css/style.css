@@ -21,13 +21,46 @@
     background-color: #2c3e50;
 }
 
+/* Header */
+.ms_avatar {
+    width: 50%;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
 /* Main */
 .ms_line {
     width: 10%;
     height: 3px;
+    border-radius: 3px;
 }
 
 /* Footer */
 .ms_text-1 {
     color: #1abc9c;
+}
+
+.ms_circle-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px 12px;
+    margin: 8px;
+}
+
+@media all and (min-width: 576px) {
+
+    .ms_avatar {
+        width: 35%;
+    }
+
+}
+
+@media all and (min-width: 992px) {
+
+    .ms_avatar {
+        width: 25%;
+    }
+
 }
